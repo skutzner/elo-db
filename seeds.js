@@ -12,25 +12,30 @@ mongoose.connect('mongodb://localhost:27017/eloTest', { useNewUrlParser: true, u
     })
 
 const seedProducts = [
+//    {
+//        name: 'Grabowski, Pawel',
+//        federation: 'POL',
+//        elo: 2290
+//    },
+//    {
+//        name: 'Wecker, Martin',
+//        federation: 'GER',
+//        elo: 2210
+//    },
+//    {
+//        name: 'Seger, Ruediger',
+//        federation: 'GER',
+//        elo: 2300
+//    },
+//    {
+//        name: 'Koehler, Christian Friedrich',
+//        federation: 'GER',
+//        elo: 2290
+//    }
     {
-        name: 'Grabowski, Pawel',
-        federation: 'POL',
-        elo: 2290
-    },
-    {
-        name: 'Wecker, Martin',
+        name: 'Dahm, Jochen',
         federation: 'GER',
-        elo: 2210
-    },
-    {
-        name: 'Seger, Ruediger',
-        federation: 'GER',
-        elo: 2300
-    },
-    {
-        name: 'Koehler, Christian Friedrich',
-        federation: 'GER',
-        elo: 2290
+        elo: 2250        
     }
 ]
 
